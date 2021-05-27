@@ -8,7 +8,6 @@ import os
 dotenv.load_dotenv()
 
 PLAYER_NAME = os.getenv("PLAYER_NAME")
-print(PLAYER_NAME)
 
 
 print("Rock, Paper, Scissors, Shoot! Welcome", PLAYER_NAME, "!")
